@@ -1,0 +1,224 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bjerrum(1972)]{Bjerrum19721}
+L.~Bjerrum.
+\newblock Embankments on soft ground.
+\newblock \emph{Proceedings of the American Society of Civil Engineers
+  Specialty Conference on Performance of Earth and Earth-Supported Structures},
+  2:\penalty0 1--54, 1972.
+\newblock cited By 300.
+
+\bibitem[Chandler(1988)]{Chandler198813}
+R.J. Chandler.
+\newblock The in-situ measurement of the undrained shear strength of clays
+  using the field vane.
+\newblock \emph{Vane Shear Strength Testing in Soils: Field and Laboratory
+  Studies}, pages 13--44, 1988.
+\newblock cited By 108.
+
+\bibitem[Ching and Phoon(2012{\natexlab{a}})]{Ching201252}
+J.~Ching and K.-K. Phoon.
+\newblock Establishment of generic transformations for geotechnical design
+  parameters.
+\newblock \emph{Structural Safety}, 35:\penalty0 52--62, 2012{\natexlab{a}}.
+\newblock \doi{10.1016/j.strusafe.2011.12.003}.
+\newblock cited By 21.
+
+\bibitem[Ching and Phoon(2012{\natexlab{b}})]{Ching2012522}
+J.~Ching and K.-K. Phoon.
+\newblock Modeling parameters of structured clays as a multivariate normal
+  distribution.
+\newblock \emph{Canadian Geotechnical Journal}, 49\penalty0 (5):\penalty0
+  522--545, 2012{\natexlab{b}}.
+\newblock \doi{10.1139/T2012-015}.
+\newblock cited By 60.
+
+\bibitem[Ching and Phoon(2013)]{Ching2013907}
+J.~Ching and K.-K. Phoon.
+\newblock Multivariate distribution for undrained shear strengths under various
+  test procedures.
+\newblock \emph{Canadian Geotechnical Journal}, 50\penalty0 (9):\penalty0
+  907--923, 2013.
+\newblock \doi{10.1139/cgj-2013-0002}.
+\newblock cited By 40.
+
+\bibitem[Ching and Phoon(2014{\natexlab{a}})]{Ching2014663}
+J.~Ching and K.-K. Phoon.
+\newblock Transformations and correlations among some clay parameters - the
+  global database.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (6):\penalty0
+  663--685, 2014{\natexlab{a}}.
+\newblock \doi{10.1139/cgj-2013-0262}.
+\newblock cited By 43.
+
+\bibitem[Ching and Phoon(2014{\natexlab{b}})]{Ching2014686}
+J.~Ching and K.-K. Phoon.
+\newblock Correlations among some clay parameters - the multivariate
+  distribution.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (6):\penalty0
+  686--704, 2014{\natexlab{b}}.
+\newblock \doi{10.1139/cgj-2013-0353}.
+\newblock cited By 46.
+
+\bibitem[Ching et~al.(2010)Ching, Phoon, and Chen]{Ching201016}
+J.~Ching, K.-K. Phoon, and Y.-C. Chen.
+\newblock Reducing shear strength uncertainties in clays by multivariate
+  correlations.
+\newblock \emph{Canadian Geotechnical Journal}, 47\penalty0 (1):\penalty0
+  16--33, 2010.
+\newblock \doi{10.1139/T09-074}.
+\newblock cited By 69.
+
+\bibitem[Ching et~al.(2014)Ching, Phoon, and Chen]{Ching201477}
+J.~Ching, K.-K. Phoon, and C.-H. Chen.
+\newblock Modeling piezocone cone penetration (cptu) parameters of clays as a
+  multivariate normal distribution.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (1):\penalty0
+  77--91, 2014.
+\newblock \doi{10.1139/cgj-2012-0259}.
+\newblock cited By 38.
+
+\bibitem[Hansbo(1957)]{Hansbo1957}
+S.~Hansbo.
+\newblock A new approach to the determination of the shear strength of clay by
+  the fall-cone test.
+\newblock \emph{A New Approach to the Determination of the Shear Strength of
+  Clay by the Fall-cone Test}, 1957.
+\newblock cited By 44.
+
+\bibitem[Jamiolkowski et~al.(1985)Jamiolkowski, Ladd, Germaine, and
+  Lancellotta]{Jamiolkowski198557}
+M.~Jamiolkowski, C.C. Ladd, J.T. Germaine, and R.~Lancellotta.
+\newblock \emph{New developments in field and laboratory testing of soils.}
+\newblock 1985.
+\newblock cited By 433.
+
+\bibitem[Karlsrud and Hernandez-Martinez(2013)]{Karlsrud20131273}
+K.~Karlsrud and F.G. Hernandez-Martinez.
+\newblock Strength and deformation properties of norwegian clays from
+  laboratory tests on high-quality block samples.
+\newblock \emph{Canadian Geotechnical Journal}, 50\penalty0 (12):\penalty0
+  1273--1293, 2013.
+\newblock \doi{10.1139/cgj-2013-0298}.
+\newblock cited By 35.
+
+\bibitem[Kulhawy and Mayne(1990)]{Kulhawy1990}
+F.H. Kulhawy and P.W. Mayne.
+\newblock Manual on estimating soil properties for foundation design.
+\newblock \emph{Manual on Estimating Soil Properties for Foundation Design},
+  1990.
+\newblock cited By 984.
+
+\bibitem[Ladd and Foott(1974)]{Ladd1974763}
+Charles~C. Ladd and Roger Foott.
+\newblock New design procedure for stability of soft clays.
+\newblock \emph{ASCE J Geotech Eng Div}, 100\penalty0 (GT7):\penalty0 763--786,
+  1974.
+\newblock cited By 520.
+
+\bibitem[Larsson(1980)]{Larsson1980591}
+R.~Larsson.
+\newblock Undrained shear strength in stability calculation of embankments and
+  foundations on soft clays.
+\newblock \emph{Canadian Geotechnical Journal}, 17\penalty0 (4):\penalty0
+  591--602, 1980.
+\newblock \doi{10.1139/t80-066}.
+\newblock cited By 60.
+
+\bibitem[Larsson and Mulabdic(1991)]{Larsson1991}
+R.~Larsson and M.~Mulabdic.
+\newblock Piezocone tests in clay.
+\newblock \emph{Piezocone Tests in Clay}, 1991.
+\newblock cited By 51.
+
+\bibitem[Larsson et~al.(2007)Larsson, Sällfors, Bengtsson, Alén, Bergdahl,
+  and Eriksson]{Larsson2007}
+R.~Larsson, G.~Sällfors, P.E. Bengtsson, C.~Alén, U.~Bergdahl, and
+  L.~Eriksson.
+\newblock \emph{Skjuvhällfasthet: Utvärdering I Kohesionsjord}, 2007.
+\newblock cited By 5.
+
+\bibitem[Mesri(1975)]{Mesri1975409}
+G.~Mesri.
+\newblock New design procedure for stability of soft clays.
+\newblock \emph{Journal of the Geotechnical Engineering Division, ASCE},
+  101\penalty0 (4):\penalty0 409--412, 1975.
+\newblock cited By 146.
+
+\bibitem[Mesri(1989)]{Mesri1989162}
+G.~Mesri.
+\newblock A reevaluation of su(mob) = 0.22σ′p using laboratory shear tests.
+\newblock \emph{Canadian Geotechnical Journal}, 26\penalty0 (1):\penalty0
+  162--164, 1989.
+\newblock \doi{10.1139/t89-017}.
+\newblock cited By 98.
+
+\bibitem[Müller et~al.(2014)Müller, Larsson, and Spross]{Müller2014231}
+R.~Müller, S.~Larsson, and J.~Spross.
+\newblock Extended multivariate approach for uncertainty reduction in the
+  assessment of undrained shear strength in clays.
+\newblock \emph{Canadian Geotechnical Journal}, 51\penalty0 (4):\penalty0
+  231--245, 2014.
+\newblock \doi{10.1139/cgj-2012-0176}.
+\newblock cited By 29.
+
+\bibitem[Müller et~al.(2016)Müller, Larsson, and Spross]{Müller2016603}
+R.~Müller, S.~Larsson, and J.~Spross.
+\newblock Multivariate stability assessment during staged construction.
+\newblock \emph{Canadian Geotechnical Journal}, 53\penalty0 (4):\penalty0
+  603--618, 2016.
+\newblock \doi{10.1139/cgj-2015-0037}.
+\newblock cited By 7.
+
+\bibitem[Phoon and Kulhawy(1999)]{Phoon1999612}
+K.-K. Phoon and F.H. Kulhawy.
+\newblock Characterization of geotechnical variability.
+\newblock \emph{Canadian Geotechnical Journal}, 36\penalty0 (4):\penalty0
+  612--624, 1999.
+\newblock \doi{10.1139/t99-038}.
+\newblock cited By 1173.
+
+\bibitem[Prästings et~al.(2016)Prästings, Larsson, and
+  Müller]{Prästings20161}
+A.~Prästings, S.~Larsson, and R.~Müller.
+\newblock Multivariate approach in reliability-based design of a sheet pile
+  wall.
+\newblock \emph{Transportation Geotechnics}, 7:\penalty0 1--12, 2016.
+\newblock \doi{10.1016/j.trgeo.2016.03.001}.
+\newblock cited By 3.
+
+\bibitem[Rankka et~al.(2004)Rankka, Andersson-Sköld, Hultén, Larsson, Leroux,
+  and Dahlin]{Rankka2004}
+K.~Rankka, Y.~Andersson-Sköld, C.~Hultén, R.~Larsson, V.~Leroux, and
+  T.~Dahlin.
+\newblock Quick clay in sweden.
+\newblock \emph{Quick Clay in Sweden}, 2004.
+\newblock cited By 82.
+
+\bibitem[Rosenqvist(1953)]{Rosenqvist1953195}
+I.T. Rosenqvist.
+\newblock Considerations on the sensitivity of norwegian quick-clays.
+\newblock \emph{Geotechnique}, 3\penalty0 (5):\penalty0 195--200, 1953.
+\newblock \doi{10.1680/geot.1953.3.5.195}.
+\newblock cited By 139.
+
+\bibitem[Rosenqvist(1966)]{Rosenqvist1966445}
+I.Th. Rosenqvist.
+\newblock Norwegian research into the properties of quick clay-a review.
+\newblock \emph{Engineering Geology}, 1\penalty0 (6):\penalty0 445--450, 1966.
+\newblock \doi{10.1016/0013-7952(66)90020-2}.
+\newblock cited By 44.
+
+\bibitem[Skempton(1954)]{Skempton195419}
+A.W. Skempton.
+\newblock Discussion of the structure of inorganic soil.
+\newblock \emph{Proc. Soil Mechanics and Foundations Division}, 80\penalty0
+  (478):\penalty0 19--22, 1954.
+\newblock cited By 45.
+
+\end{thebibliography}

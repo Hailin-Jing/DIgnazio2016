@@ -1,0 +1,50 @@
+\newcommand{\RelationshipA}{$\rm{OCR}-\left[s_u(\rm{mob})/\sigma_v'\right]-\rm{PI}$}
+\newcommand{\RelationshipB}{$\rm{OCR}-\left[s_u(\rm{mob})/\sigma_v'\right]-\rm{LL}$}
+\newcommand{\RelationshipC}{$\rm{OCR}-\left[s_u(\rm{mob})/\sigma_v'\right]-w$}
+\newcommand{\RelationshipD}{$\rm{OCR}-\left[s_u(\rm{mob})/\sigma_v'\right]-\rm{LI}$}
+\newcommand{\RelationshipE}{$\rm{OCR}-\left[s_u(\rm{mob})/\sigma_v'\right]-S_t$}
+\newcommand{\RelationshipF}{$\rm{OCR}-\left(s_u^{\rm{FV}}/\sigma_v'\right)-\rm{PI}$}
+\newcommand{\RelationshipG}{$\rm{OCR}-\left(s_u^{\rm{FV}}/\sigma_v'\right)-\rm{LL}$}
+\newcommand{\RelationshipH}{$\rm{OCR}-\left(s_u^{\rm{FV}}/\sigma_v'\right)-w$}
+\newcommand{\RelationshipI}{$\rm{OCR}-\left(s_u^{\rm{FV}}/\sigma_v'\right)-\rm{LI}$}
+\newcommand{\RelationshipJ}{$\rm{OCR}-\left(s_u^{\rm{FV}}/\sigma_v'\right)-S_t$}
+
+\newcommand{\ModelA}{$s_u(\rm{mob})/\sigma_v'\approx{}0.245\rm{OCR}^{0.763}\rm{PI}^{-0.013}$}
+\newcommand{\ModelB}{$s_u(\rm{mob})/\sigma_v'\approx{}0.245\rm{OCR}^{0.760}\rm{PI}^{-0.005}$}
+\newcommand{\ModelC}{$s_u(\rm{mob})/\sigma_v'\approx{}0.246\rm{OCR}^{0.760}w^{0.0273}$}
+\newcommand{\ModelD}{$s_u(\rm{mob})/\sigma_v'\approx{}0.241\rm{OCR}^{0.760}\rm{PI}^{0.045}$}
+\newcommand{\ModelE}{$s_u(\rm{mob})/\sigma_v'\approx{}0.242\rm{OCR}^{0.762}S_t^{0.006}$}
+\newcommand{\ModelF}{$s_u^{\rm{FV}}/\sigma_v'\approx{}0.328\rm{OCR}^{0.756}\rm{PI}^{0.165}$}
+\newcommand{\ModelG}{$s_u^{\rm{FV}}/\sigma_v'\approx{}0.319\rm{OCR}^{0.757}\rm{LL}^{0.333}$}
+\newcommand{\ModelH}{$s_u^{\rm{FV}}/\sigma_v'\approx{}0.296\rm{OCR}^{0.788}w^{0.337}$}
+\newcommand{\ModelI}{$s_u^{\rm{FV}}/\sigma_v'\approx{}0.281\rm{OCR}^{0.770}\rm{LI}^{0.165}$}
+\newcommand{\ModelJ}{$s_u^{\rm{FV}}/\sigma_v'\approx{}0.280\rm{OCR}^{0.786}S_t^{-0.013}S_t$}
+
+\begin{table*}[!htb]
+    \centering
+    \caption{Transformation models in literature and their calibration results for S-CLAY/10/168.}
+    \addtocounter{table}{-1}
+    \vspace{-8pt}
+    \renewcommand{\tablename}{表}
+    \caption{文献中的转换模型及其对S-CLAY/10/168的校准结果。}
+    \vspace{4pt}
+    \renewcommand{\tablename}{Table}
+    \begin{tabular}{lllll}
+        \toprule
+                       &      &                      & \multicolumn{2}{l}{Calibration results} \\
+        Relationship   & $n$  & Transformation model & Bias factor, $b$ & COV of $\varepsilon=\delta$\\
+        \midrule
+        \RelationshipA & 168  & \ModelA & 0.94      & 0.26 \\
+        \RelationshipB & 168  & \ModelB & 0.94      & 0.25 \\
+        \RelationshipC & 168  & \ModelC & 0.94      & 0.25 \\
+        \RelationshipD & 168  & \ModelD & 0.95      & 0.26 \\
+        \RelationshipE & 59   & \ModelE & 0.90      & 0.34 \\
+        \RelationshipF & 168  & \ModelF & 0.95      & 0.29 \\
+        \RelationshipG & 168  & \ModelG & 0.94      & 0.26 \\
+        \RelationshipH & 168  & \ModelH & 0.97      & 0.27 \\
+        \RelationshipI & 168  & \ModelI & 0.95      & 0.33 \\
+        \RelationshipJ & 59   & \ModelJ & 0.91      & 0.44 \\
+        \bottomrule
+    \end{tabular}%
+    \label{table:10}%
+\end{table*}

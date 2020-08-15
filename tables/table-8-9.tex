@@ -1,0 +1,60 @@
+\begin{table*}[!htb]
+    \centering
+    \begin{minipage}[t]{0.42\textwidth}
+        \centering
+        \small
+        \caption{Basic statistics of the data points after removal of outliers(database F-CLAY/10/173).}
+        \addtocounter{table}{-1}
+        \vspace{-8pt}
+        \renewcommand{\tablename}{表}
+        \caption{移除异常值之后数据点的基本统计信息（数据库F-CLAY/10/173）。}
+        \vspace{4pt}
+        \renewcommand{\tablename}{Table}
+        \setlength{\tabcolsep}{1mm}{
+        \begin{tabularx}{\textwidth}{lXXXXX}
+            \toprule
+            \multirow{2}*{Variable} & \multirow{2}*{$n$} & \multirow{2}*{Mean} & \multirow{2}*{COV} & \multirow{2}*{Min} & \multirow{2}*{Max} \\
+            & & & & & \\
+            \midrule
+            $s_u(\rm{mob})/\sigma_v'$   & 173   & 0.399 & 0.284 & 0.213 & 0.690 \\
+            $s_u(\rm{mob})/\sigma_p'$   & 173   & 0.213 & 0.183 & 0.148 & 0.338 \\
+            $s_u^{\rm{FV}}/\sigma_v'$   & 173   & 0.447 & 0.306 & 0.226 & 0.92 \\
+            $s_u^{\rm{FV}}/\sigma_p'$   & 173   & 0.239 & 0.203 & 0.148 & 0.394 \\
+            OCR                         & 173   & 1.91  & 0.31  & 1.18  & 3.69 \\
+            LL                          & 173   & 66.4  & 0.29  & 22    & 125.0 \\
+            PI                          & 173   & 38    & 0.47  & 2     & 95.0 \\
+            $w$                         & 173   & 78.3  & 0.25  & 25.00 & 150.0 \\
+            LI                          & 173   & 1.48  & 0.43  & 0.46  & 4.80 \\
+            $S_t$                       & 173   & 18.80 & 0.76  & 2.00  & 58.0 \\            \bottomrule
+        \end{tabularx}}%
+        \label{table:8}%
+    \end{minipage}
+    \begin{minipage}[t]{0.55\textwidth}
+        \centering
+        \small
+        \caption{Linear regression coefficients for multivariable function $F$.}
+        \addtocounter{table}{-1}
+        \vspace{-8pt}
+        \renewcommand{\tablename}{表}
+        \caption{多元函数$F$的线性回归系数。\newline{}}
+        \vspace{4pt}
+        \renewcommand{\tablename}{Table}
+        \setlength{\tabcolsep}{1mm}{
+        \begin{tabularx}{\textwidth}{llllll}
+            \toprule
+            \makecell[l]{Transformation\\model} & \makecell[l]{Secondary input\\parameter,$Y_j$} & $\alpha$ & $\beta$ & $\gamma$ & $r^2$ \\
+            \midrule
+            $\rm{OCR}-s_u(\rm{mob})/\sigma_v'-Y_j$  & $Y_1$ (PI)    & 0.242 & 0.763 & -0.013 & 0.67 \\
+                                                    & $Y_2$ (LL)    & 0.245 & 0.760 & -0.005 & 0.67 \\
+                                                    & $Y_3$ ($w$)   & 0.246 & 0.760 & 0.027  & 0.67 \\
+                                                    & $Y_4$ (LI)    & 0.241 & 0.770 & 0.045  & 0.67 \\
+                                                    & $Y_5$ ($S_t$) & 0.242 & 0.762 & 0.006  & 0.67 \\
+            $\rm{OCR}-s_u^{\rm{FV}}/\sigma_v'-Y_j$  & $Y_1$ (PI)    & 0.328 & 0.756 & 0.165  & 0.68 \\
+                                                    & $Y_2$ (LL)    & 0.319 & 0.757 & 0.333  & 0.70 \\
+                                                    & $Y_3$ ($w$)   & 0.296 & 0.788 & 0.337  & 0.69 \\
+                                                    & $Y_4$ (LI)    & 0.281 & 0.770 & -0.088 & 0.63 \\
+                                                    & $Y_5$ ($S_t$) & 0.28  & 0.786 & -0.013 & 0.62 \\            \bottomrule
+        \end{tabularx}}%
+        \label{table:9}%
+    \end{minipage}
+\end{table*}

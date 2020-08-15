@@ -1,0 +1,70 @@
+
+\newcommand{\RelationshipAA}{$\rm{LI}-s_u^{re}/P_a$}
+\newcommand{\RelationshipAB}{$\rm{LI}-S_t$}
+\newcommand{\RelationshipBA}{$\rm{LI}-(\sigma_p'/P_a)-S_t(\rm{for}~S_t<15)$}
+\newcommand{\RelationshipBB}{$\rm{LI}-(\sigma_p'/P_a)-S_t(\rm{for}~S_t>15)$}
+\newcommand{\RelationshipCA}{$\rm{PI}-s_u(\rm{mob})/\sigma_p'$}
+\newcommand{\RelationshipCB}{$\rm{OCR}-s_u(\rm{mob})/\sigma_v'$}
+\newcommand{\RelationshipCC}{$\rm{OCR}-s_u(\rm{mob})/\sigma_v'-S_t$}
+\newcommand{\RelationshipDA}{$\rm{LL}-(s_u^{\rm{FV}}/\sigma_p')$}
+\newcommand{\RelationshipDB}{$\rm{PI}-(s_u^{\rm{FV}}/\sigma_p')$}
+
+\newcommand{\LiteratureAA}{\citet{Wroth1978137}}
+\newcommand{\LiteratureAB}{\citet{Locat1988799}}
+\newcommand{\LiteratureAC}{\citet{Bjerrum195449}}
+\newcommand{\LiteratureAD}{\citet{Ching2012522}}
+\newcommand{\LiteratureBA}{\citet{Ching2012522}}
+\newcommand{\LiteratureBB}{\citet{Ching2012522}}
+\newcommand{\LiteratureCA}{\citet{Mesri1975409,Mesri1989162}}
+\newcommand{\LiteratureCB}{\citet{Jamiolkowski198557}}
+\newcommand{\LiteratureCC}{\citet{Ching2012522}}
+\newcommand{\LiteratureDA}{\citet{Hansbo1957}}
+\newcommand{\LiteratureDB}{\citet{Larsson1980591}}
+\newcommand{\LiteratureDC}{\citet{Chandler198813}}
+
+\newcommand{\ModelAA}{$s_u^{re}/P_a\approx{}1.7^{-4.6\rm{LI}}$}
+\newcommand{\ModelAB}{$s_u^{re}/P_a\approx{}0.0144\rm{LI}^{-2.44}$}
+\newcommand{\ModelAC}{$S_t\approx10^{0.8\rm{LI}}$}
+\newcommand{\ModelAD}{$S_t\approx{}20.726\rm{LI}^{1.910}$}
+\newcommand{\ModelBA}{$\sigma_p'/P_a\approx{}0.235\rm{LI}^{-1.139}S_t^{0.536}$}
+\newcommand{\ModelBB}{$\sigma_p'/P_a\approx{}0.235\rm{LI}^{-1.139}S_t^{0.536}$}
+\newcommand{\ModelCA}{$s_u(\rm{mob})/\sigma_p'\approx{}0.22$}
+\newcommand{\ModelCB}{$s_u(\rm{mob})/\sigma_v'\approx{}0.23\rm{OCR}^{0.8}$}
+\newcommand{\ModelCC}{$s_u(\rm{mob})/\sigma_p'\approx{}0.229\rm{OCR}^{0.823}S_t^{0.121}$}
+\newcommand{\ModelDA}{$s_u^{\rm{FV}}/\sigma_p'\approx{}0.45\rm{LI}$}
+\newcommand{\ModelDB}{$s_u^{\rm{FV}}/\sigma_p'\approx{}0.08+0.0055\rm{PI}$}
+\newcommand{\ModelDC}{$s_u^{\rm{FV}}/\sigma_p'\approx{}0.11+0.0037\rm{PI}$}
+
+
+\begin{table*}[!htb]
+    \centering
+    \footnotesize
+    \caption{Transformation models in literature and their calibration results for F-CLAY/10/216.}
+    \addtocounter{table}{-1}
+    \vspace{-8pt}
+    \renewcommand{\tablename}{表}
+    \caption{文献中的转换模型及其对F-CLAY/10/216的校准结果。}
+    \vspace{4pt}
+    \renewcommand{\tablename}{Table}
+    \setlength{\tabcolsep}{0.3mm}{
+    \begin{tabular}{lllllllll}
+        \toprule
+                &                 &               &      &         & \multicolumn{2}{l}{Comprasion} & \multicolumn{2}{l}{Calibration} \\
+        Type    & Relationship    & Literature    & $n$  & Transformation model & Figure & \makecell[l]{Fit to\\trend?} & \makecell{Bias\\factor,b} & \makecell{COV of\\$\varepsilon=\delta$}\\
+        \midrule
+        A       & \RelationshipAA & \LiteratureAA & 899  & \ModelAA &  Fig.\ref{figure:9}      & NO       & $-$        & $-$ \\
+                &                 & \LiteratureAB & 899  & \ModelAB &  Fig.\ref{figure:9}      & YES      & 4.05      & 3.02 \\
+                & \RelationshipAB & \LiteratureAC & 1279 & \ModelAC &  Fig.\ref{figure:11}     & YES      & 1.56      & 1.40 \\
+                &                 & \LiteratureAD & 1279 & \ModelAD &  Fig.\ref{figure:11}     & NO       & 0.57      & 1.94 \\
+        B       & \RelationshipBA & \LiteratureBA & 694  & \ModelBA &  Fig.\ref{figure:12}a    & YES      & 2.02      & 0.94 \\
+                & \RelationshipBB & \LiteratureBB & 492  & \ModelBB &  Fig.\ref{figure:12}a    & YES      & 0.95      & 0.47 \\
+        C       & \RelationshipCA & \LiteratureCA & 1072 & \ModelCA &  Fig.\ref{figure:5}      & YES      & 0.95      & 0.28 \\
+                & \RelationshipCB & \LiteratureCB & 1155 & \ModelCB &  Fig.\ref{figure:6}      & YES      & 1.06      & 0.30 \\
+                & \RelationshipCC & \LiteratureCC & 1402 & \ModelCC &  Fig.\ref{figure:6}a     & YES      & 0.77      & 0.32 \\
+        D       & \RelationshipDA & \LiteratureDA & 423  & \ModelDA &  Fig.\ref{figure:7}      & YES      & 0.84      & 0.38 \\
+                & \RelationshipDB & \LiteratureDB & 428  & \ModelDB &  Fig.\ref{figure:8}      & YES      & 0.89      & 0.43 \\
+                &                 & \LiteratureDC & 423  & \ModelDC &  Fig.\ref{figure:8}      & YES      & 0.97      & 0.35 \\
+        \bottomrule
+    \end{tabular}}%
+    \label{table:6}%
+\end{table*}
