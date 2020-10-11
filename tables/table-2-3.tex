@@ -1,15 +1,6 @@
-\begin{table*}[!htb]
-    \centering
-    \begin{minipage}[t]{0.48\textwidth}
-        \centering
-        \caption{Basic statistics of the seven basic parameters in F-CLAY/7/216.}
-        \addtocounter{table}{-1}
-        \vspace{-8pt}
-        \renewcommand{\tablename}{表}
-        \caption{数据库F-CLAY/7/216中七个基本参数的基本统计信息。}
-        \vspace{4pt}
-        \renewcommand{\tablename}{Table}
-        \setlength{\tabcolsep}{1.5mm}{
+\sidebyside[crosscolumn=true,verticalalignment=bottom][!htb]{0.48\linewidth}{
+    \begin{BiliTable}[label=table:2][H]{Basic statistics of the seven basic parameters in F-CLAY/7/216.}{数据库F-CLAY/7/216中七个基本参数的基本统计信息。}
+        \tabcolsep=1.5mm
         \begin{tabularx}{\textwidth}{lXXXXX}
             \toprule
             Variable                    & $n$   & Mean   & COV   & Min     & Max\\
@@ -22,19 +13,11 @@
             $w$                         & 216   & 76.340 & 0.268 & 25.0    & 150.0 \\
             $S_t$                       & 216   & 17.447 & 0.789 & 2.0     & 64.0 \\
             \bottomrule
-        \end{tabularx}}%
-        \label{table:2}%
-    \end{minipage}
-    \begin{minipage}[t]{0.48\textwidth}
-        \centering
-        \caption{Basic statistics of the seven basic parameters in  S-CLAY/7/168.}
-        \addtocounter{table}{-1}
-        \vspace{-8pt}
-        \renewcommand{\tablename}{表}
-        \caption{数据库 S-CLAY/7/168中七个基本参数的基本统计信息。}
-        \vspace{4pt}
-        \renewcommand{\tablename}{Table}
-        \setlength{\tabcolsep}{1.5mm}{
+        \end{tabularx}
+    \end{BiliTable}
+}{0.48\linewidth}{
+    \begin{BiliTable}[label=table:3][H]{Basic statistics of the seven basic parameters in  S-CLAY/7/168.}{数据库S-CLAY/7/168中七个基本参数的基本统计信息。}
+        \tabcolsep=1.5mm
         \begin{tabularx}{\textwidth}{lXXXXX}
             \toprule
             Variable                    & $n$   & Mean   & COV   & Min     & Max\\
@@ -47,7 +30,6 @@
             $w$                         & 168   & 76.631 & 0.347 & 17.27 & 180.11 \\
             $S_t$                       & 59    & 12.068 & 0.779 & 3.0   & 42.5 \\
             \bottomrule
-        \end{tabularx}}%
-        \label{table:3}%
-    \end{minipage}
-\end{table*}
+        \end{tabularx}
+    \end{BiliTable}
+}

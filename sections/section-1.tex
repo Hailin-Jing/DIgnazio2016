@@ -1,6 +1,4 @@
-\section{Introduction 介绍}
-
-\begin{paracol}{2}
+\begin{ParaColumn}[\section{Introduction 介绍}]
 
     Soft sensitive clays are widespread in Scandinavia, especially on coastal areas. The high compressibility of these soils, along with their low undrained shear strength ($_su$) (even lower than 10 kPa near the ground surface), makes geotechnical design often rather challenging. Therefore, $s_u$ needs to be carefully evaluated for a reliable assessment of the safety level.
 
@@ -14,7 +12,7 @@
 
     \switchcolumn
 
-    斯堪的纳维亚软粘土通常略有过度固结。 过度固结通常是老化过程的结果（例如\citealt{Bjerrum19721}）。 对于快黏土，重塑后的不排水抗剪强度（$s_u^{re}$）甚至可以小于0.5 kPa，比最初的“完整” $s_u$低50-100倍（例如，\citealt{Rankka2004,Karlsrud20131273}）。
+    斯堪的纳维亚软黏土通常略有过度固结。 过度固结通常是老化过程的结果（例如\citealt{Bjerrum19721}）。 对于快黏土，重塑后的不排水抗剪强度（$s_u^{re}$）甚至可以小于0.5 kPa，比最初的“完整” $s_u$低50-100倍（例如，\citealt{Rankka2004,Karlsrud20131273}）。
 
     \switchcolumn*
 
@@ -22,7 +20,7 @@
 
     \switchcolumn
 
-    可以从原位以及实验室测试中评估$s_u$。 在斯堪的纳维亚半岛，现场十字板剪切试验（FV）和带孔压的静力触探试验（CPTU）是最常用的方法。 实验室测试包括不排水三轴压缩（TXC）和直接单剪试验（DSS）试验。 对于某些需要评估$s_u$各向异性的特殊情况，还执行三轴拉伸（TXE）试验。
+    可以从原位以及实验室试验中评估$s_u$。 在斯堪的纳维亚半岛，现场十字板剪切试验（FV）和带孔压的静力触探试验（CPTU）是最常用的方法。 实验室试验包括不排水三轴压缩（TXC）和直接单剪试验（DSS）试验。 对于某些需要评估$s_u$各向异性的特殊情况，还执行三轴拉伸（TXE）试验。
 
     \switchcolumn*
 
@@ -30,7 +28,7 @@
 
     \switchcolumn
 
-    在无法直接测量$s_u$或认为测量结果不可靠的情况下，通常从基于粘土特性（例如垂直预固结压力（Cpl），例如\citealt{Mesri1975409,Jamiolkowski198557}）或可塑性的转化模型中评估$s_u$ （例如，\citealt{Hansbo1957,Chandler198813}）。 这种转换模型通常是经验的或半经验的，通过回归分析的数据拟合获得（例如，\citealt{Kulhawy1990}）。 但是，必须谨慎应用此类模型并认识到其局限性，因为土壤特性，土壤行为和站点地质可能与校准转换模型的数据源不同。 直接的结果是，来自这些模型的预测可能导致相对于实际属性（$s_u$）值的偏差。
+    在无法直接测量$s_u$或认为测量结果不可靠的情况下，通常从基于黏土特性（例如垂直预固结压力（Cpl），例如\citealt{Mesri1975409,Jamiolkowski198557}）或可塑性的转化模型中评估$s_u$ （例如，\citealt{Hansbo1957,Chandler198813}）。 这种转换模型通常是经验的或半经验的，通过回归分析的数据拟合获得（例如，\citealt{Kulhawy1990}）。 但是，必须谨慎应用此类模型并认识到其局限性，因为土壤特性，土壤行为和站点地质可能与校准转换模型的数据源不同。 直接的结果是，来自这些模型的预测可能导致相对于实际属性（$s_u$）值的偏差。
 
     \switchcolumn*
 
@@ -38,7 +36,7 @@
 
     \switchcolumn
 
-    根据\citet{Phoon1999612}，来自转换模型的不确定性通常可以归类为与认知相关，这意味着可以通过收集更多数据或改进可用模型来减少不确定性。 因此，从涵盖多个地点和土壤类型的数据集校准的“全局”模型优于“地点特定”模型，后者仅限于特定土壤类型或特定地点。 \citet{Ching201252, Ching2012522, Ching2014663, Ching2014686}提出了基于土壤数据的全球模型，该数据涵盖了来自多个国家的大量测试地点。 \citet{Ching201252}指出，尽管在应用于其他站点时偏差可能会很明显，但特定于站点的模型如何比全局模型更准确（或不确定性更低）。 取而代之的是，尽管精度较低（或更不确定），但全局模型的偏差较小。
+    根据\citet{Phoon1999612}，来自转换模型的不确定性通常可以归类为与认知相关，这意味着可以通过收集更多数据或改进可用模型来减少不确定性。 因此，从涵盖多个地点和土壤类型的数据集校准的“全局”模型优于“地点特定”模型，后者仅限于特定土壤类型或特定地点。 \citet{Ching201252, Ching2012522, Ching2014663, Ching2014686}提出了基于土壤数据的全球模型，该数据涵盖了来自多个国家的大量试验地点。 \citet{Ching201252}指出，尽管在应用于其他站点时偏差可能会很明显，但特定于站点的模型如何比全局模型更准确（或不确定性更低）。 取而代之的是，尽管精度较低（或更不确定），但全局模型的偏差较小。
 
     \switchcolumn*
 
@@ -50,11 +48,11 @@
 
     \switchcolumn*
 
-    The value of multivariate soil databases has been demonstrated by \citet{Ching201252,Ching2012522, Ching2013907,Ching2014663,Ching2014686} and \citet{Ching201477}. Müller (2013), \citet{Müller2014231,Müller2016603} and \citet{Prästings20161} have demonstrated how uncertainties related to su can be reduced when multivariate soil data are available, showing the beneﬁts of using multivariate analyses (e.g., \citealt{Ching201016})in geotechnical engineering applications. Multivariate soil data-bases are, however, limited in the literature. A summary is given in \autoref{table:1}. \citet{Ching2014663} proposed labeling a multivar-iate database as “soil type”/“number of parameters of interest”/ “number of data points”. Based on this nomenclature, the two databases presented in this paper are (i) F-CLAY/7/216 for Finnish clays (where “F” stands for Finland) and (ii) S-CLAY/7/168 for Scan-dinavian clays (where “S” stands for Scandinavia). The seven parameters in these databases consisted of $s_u$ from the FV test ($s_U^{\rm{FV}}$), effective vertical stress ($\sigma_v'$), vertical preconsolidation pressure ($\sigma_p'$), natural water content ($w$), liquid limit (LL), plastic limit (PL),and sensitivity ($S_t=s_u/s_u^{re}$).
+    The value of multivariate soil databases has been demonstrated by \citet{Ching201252,Ching2012522, Ching2013907,Ching2014663,Ching2014686} and \citet{Ching201477}. Müller (2013), \citet{Müller2014231,Müller2016603} and \citet{Prästings20161} have demonstrated how uncertainties related to su can be reduced when multivariate soil data are available, showing the beneﬁts of using multivariate analyses (e.g., \citealt{Ching201016})in geotechnical engineering applications. Multivariate soil data-bases are, however, limited in the literature. A summary is given in \enautoref{table:1}. \citet{Ching2014663} proposed labeling a multivar-iate database as “soil type”/“number of parameters of interest”/ “number of data points”. Based on this nomenclature, the two databases presented in this paper are (i) F-CLAY/7/216 for Finnish clays (where “F” stands for Finland) and (ii) S-CLAY/7/168 for Scan-dinavian clays (where “S” stands for Scandinavia). The seven parameters in these databases consisted of $s_u$ from the FV test ($s_U^{\rm{FV}}$), effective vertical stress ($\sigma_v'$), vertical preconsolidation pressure ($\sigma_p'$), natural water content ($w$), liquid limit (LL), plastic limit (PL),and sensitivity ($S_t=s_u/s_u^{re}$).
 
     \switchcolumn
 
-    \citet{Ching201252,Ching2012522, Ching2013907,Ching2014663,Ching2014686}和\citet{Ching201477}证明了多元土壤数据库的价值。\citet{Müller2014231,Müller2016603}和\citet{Prästings20161}证明了当获得多变量土壤数据时如何减少与$s_u$有关的不确定性，显示了在土力工程应用中使用多变量分析的好处（例如\citealt{Ching201016}）。然而，多元土壤数据库在文献中受到限制。\cntableref{table:1}给出了摘要。\citet{Ching2014663}建议将一个多元数据库标记为“土壤类型” /“感兴趣参数的数量” /“数据点的数量”。基于此术语，本文介绍的两个数据库是（i）芬兰黏土的F-CLAY/7/216（其中“F”代表芬兰）和（ii）斯堪的纳维亚语的S-CLAY/7/168黏土（其中“S”代表斯堪的纳维亚半岛）。这些数据库中的七个参数包括FV测试中的$s_u$（$s_U^{\rm{FV}}$），有效垂直应力（$\sigma_v'$），垂直预固结压力（$\sigma_p'$），天然水含量（$w$），液体极限（LL），塑性极限（PL），和灵敏度（$S_t=s_u/s_u^{re}$）。
+    \citet{Ching201252,Ching2012522, Ching2013907,Ching2014663,Ching2014686}和\citet{Ching201477}证明了多元土壤数据库的价值。\citet{Müller2014231,Müller2016603}和\citet{Prästings20161}证明了当获得多变量土壤数据时如何减少与$s_u$有关的不确定性，显示了在土力工程应用中使用多变量分析的好处（例如\citealt{Ching201016}）。然而，多元土壤数据库在文献中受到限制。\cnautoref{table:1}给出了摘要。\citet{Ching2014663}建议将一个多元数据库标记为“土壤类型” /“感兴趣参数的数量” /“数据点的数量”。基于此术语，本文介绍的两个数据库是（i）芬兰黏土的F-CLAY/7/216（其中“F”代表芬兰）和（ii）斯堪的纳维亚语的S-CLAY/7/168黏土（其中“S”代表斯堪的纳维亚半岛）。这些数据库中的七个参数包括FV试验中的$s_u$（$s_U^{\rm{FV}}$），有效垂直应力（$\sigma_v'$），垂直预固结压力（$\sigma_p'$），天然水含量（$w$），液体极限（LL），塑性极限（PL），和灵敏度（$S_t=s_u/s_u^{re}$）。
 
     \input{tables/table-1.tex}
     \switchcolumn*
@@ -63,6 +61,6 @@
 
     \switchcolumn
 
-    本文的结构如下。首先，在对$s_u$的现有转换模型进行简要概述之后，介绍了F-CLAY/7/216和S-CLAY/7/168数据库的编译。其次，从七个基本参数中导出10个无量纲参数，从而形成两个无量纲数据库。将这些无量纲数据库（标记为F-CLAY/10/216和S-CLAY/10/168）与文献中现有的相关性进行了比较。为了建立更精确的芬兰黏土相关性，根据土壤性质，机械特性和统计考虑因素，根据系统标准从F-CLAY/10/216中删除异常值。通过对所得F-CLAY/10/173数据库进行回归分析得出了特定于芬兰粘土的新转换模型。从文献中将这些新的转换模型与斯堪的纳维亚粘土的现有相关性进行了比较。最后，通过计算与S-CLAY/10/168相关的偏差和不确定性来评估源自F-CLAY/10/173的新模型的性能。
+    本文的结构如下。首先，在对$s_u$的现有转换模型进行简要概述之后，介绍了F-CLAY/7/216和S-CLAY/7/168数据库的编译。其次，从七个基本参数中导出10个无量纲参数，从而形成两个无量纲数据库。将这些无量纲数据库（标记为F-CLAY/10/216和S-CLAY/10/168）与文献中现有的相关性进行了比较。为了建立更精确的芬兰黏土相关性，根据土壤性质，机械特性和统计考虑因素，根据系统标准从F-CLAY/10/216中删除异常值。通过对所得F-CLAY/10/173数据库进行回归分析得出了特定于芬兰黏土的新转换模型。从文献中将这些新的转换模型与斯堪的纳维亚黏土的现有相关性进行了比较。最后，通过计算与S-CLAY/10/168相关的偏差和不确定性来评估源自F-CLAY/10/173的新模型的性能。
 
-\end{paracol}
+\end{ParaColumn}

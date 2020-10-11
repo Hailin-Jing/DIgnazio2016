@@ -1,15 +1,6 @@
-\begin{table*}[!htb]
-    \centering
-    \begin{minipage}[t]{0.48\textwidth}
-        \centering
-        \caption{Basic statistics of 10 dimensionless soil parameters in F-CLAY/10/216, derived from the seven basic parameters in F-CLAY/7/216.}
-        \addtocounter{table}{-1}
-        \vspace{-8pt}
-        \renewcommand{\tablename}{表}
-        \caption{从F-CLAY/7/216中的七个基本参数得出的F-CLAY/10/216中的10个无因次土体参数的基本统计信息。}
-        \vspace{4pt}
-        \renewcommand{\tablename}{Table}
-        \setlength{\tabcolsep}{1.5mm}{
+\sidebyside[crosscolumn=true,verticalalignment=bottom][!htb]{0.49\linewidth}{
+    \begin{BiliTable}[label=table:4][H]{Basic statistics of 10 dimensionless soil parameters in F-CLAY/10/216, derived from the seven basic parameters in F-CLAY/7/216.}{从F-CLAY/7/216中的七个基本参数得出的F-CLAY/10/216中10个无量纲土体参数的基本统计信息}
+        \tabcolsep=1.5mm
         \begin{tabularx}{\textwidth}{lXXXXX}
             \toprule
             Variable                    & $n$   & Mean   & COV   & Min   & Max \\
@@ -25,19 +16,11 @@
             LI                          & 168   & 1.267 & 0.507  & 0.60  & 5.50 \\
             St                          & 59    & 12.068 & 0.779 & 3.00  & 42.50 \\
             \bottomrule
-        \end{tabularx}}%
-        \label{table:4}%
-    \end{minipage}
-    \begin{minipage}[t]{0.48\textwidth}
-        \centering
-        \caption{Basic statistics of 10 dimensionless soil parameters in F-CLAY/10/168, derived from the seven basic parameters in F-CLAY/7/168.}
-        \addtocounter{table}{-1}
-        \vspace{-8pt}
-        \renewcommand{\tablename}{表}
-        \caption{从F-CLAY/7/168中的七个基本参数得出的F-CLAY/10/168中的10个无因次土体参数的基本统计信息。}
-        \vspace{4pt}
-        \renewcommand{\tablename}{Table}
-        \setlength{\tabcolsep}{1.5mm}{
+        \end{tabularx}
+    \end{BiliTable}
+}{0.49\linewidth}{
+    \begin{BiliTable}[label=table:5][H]{Basic statistics of 10 dimensionless soil parameters in F-CLAY/10/168, derived from the seven basic parameters in F-CLAY/7/168}{从F-CLAY/7/168中的七个基本参数得出的F-CLAY/10/168中10个无量纲土体参数的基本统计信息}
+        \tabcolsep=1.5mm
         \begin{tabularx}{\textwidth}{lXXXXX}
             \toprule
             Variable                    & $n$   & Mean   & COV   & Min   & Max \\
@@ -53,7 +36,6 @@
             LI                          & 216   & 1.443  & 0.459 & 0.425 & 4.800 \\
             $S_t$                          & 216   & 17.447 & 0.789 & 2.0   & 64.0  \\
             \bottomrule
-        \end{tabularx}}%
-        \label{table:5}%
-    \end{minipage}
-\end{table*}
+        \end{tabularx}
+    \end{BiliTable}
+}

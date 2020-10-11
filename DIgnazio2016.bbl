@@ -1,9 +1,16 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bjerrum(1954)]{Bjerrum195449}
+L.~Bjerrum.
+\newblock Geotechnical properties of norwegian marine clays.
+\newblock \emph{Geotechnique}, 4\penalty0 (2):\penalty0 49--69, 1954.
+\newblock \doi{10.1680/geot.1954.4.2.49}.
+\newblock cited By 174.
 
 \bibitem[Bjerrum(1972)]{Bjerrum19721}
 L.~Bjerrum.
@@ -83,6 +90,20 @@ J.~Ching, K.-K. Phoon, and C.-H. Chen.
 \newblock \doi{10.1139/cgj-2012-0259}.
 \newblock cited By 38.
 
+\bibitem[D'Ignazio et~al.(2015)D'Ignazio, Di~Buò, and
+  Länsivaara]{D'Ignazio20153639}
+M.~D'Ignazio, B.~Di~Buò, and T.~Länsivaara.
+\newblock A study on the behaviour of the weathered crust in the pemiö failure
+  test.
+\newblock volume~7, pages 3639--3644, 2015.
+\newblock cited By 5.
+
+\bibitem[Gardemeister(1973)]{Gardemeister1973113}
+R.~Gardemeister.
+\newblock \emph{Hienorakeisten Maalajien Geologisia ja Geoteknisiä
+  Tutkimustuloksia}, page 113, 1973.
+\newblock cited By 4.
+
 \bibitem[Hansbo(1957)]{Hansbo1957}
 S.~Hansbo.
 \newblock A new approach to the determination of the shear strength of clay by
@@ -90,6 +111,18 @@ S.~Hansbo.
 \newblock \emph{A New Approach to the Determination of the Shear Strength of
   Clay by the Fall-cone Test}, 1957.
 \newblock cited By 44.
+
+\bibitem[Hoikkala(1991)]{Hoikkala1991}
+S.~Hoikkala.
+\newblock \emph{Continuous and Incremental Loading Oedometer Tests}, 1991.
+\newblock cited By 3.
+
+\bibitem[Jaky(1944)]{Jaky1944355}
+J.~Jaky.
+\newblock The coefficient of earth pressure at rest.
+\newblock \emph{Journal of the Society of Hungarian Architects and Engineers},
+  \penalty0 (22):\penalty0 355--358, 1944.
+\newblock cited By 690.
 
 \bibitem[Jamiolkowski et~al.(1985)Jamiolkowski, Ladd, Germaine, and
   Lancellotta]{Jamiolkowski198557}
@@ -107,12 +140,27 @@ K.~Karlsrud and F.G. Hernandez-Martinez.
 \newblock \doi{10.1139/cgj-2013-0298}.
 \newblock cited By 35.
 
+\bibitem[Kolisoja et~al.(1989)Kolisoja, Sahi, and Hartikainen]{Kolisoja198961}
+P.~Kolisoja, K.~Sahi, and J.~Hartikainen.
+\newblock Automatic triaxial-oedometer device.
+\newblock volume~1, pages 61--64, 1989.
+\newblock cited By 2.
+
 \bibitem[Kulhawy and Mayne(1990)]{Kulhawy1990}
 F.H. Kulhawy and P.W. Mayne.
 \newblock Manual on estimating soil properties for foundation design.
 \newblock \emph{Manual on Estimating Soil Properties for Foundation Design},
   1990.
 \newblock cited By 984.
+
+\bibitem[La~Rochelle et~al.(1974)La~Rochelle, Trak, Tavenas, and
+  Roy]{LaRochelle1974142}
+P.~La~Rochelle, B.~Trak, F.~Tavenas, and M.~Roy.
+\newblock Failure of a test embankment on a sensitive champlain clay deposit.
+\newblock \emph{Canadian Geotechnical Journal}, 11\penalty0 (1):\penalty0
+  142--164, 1974.
+\newblock \doi{10.1139/t74-009}.
+\newblock cited By 51.
 
 \bibitem[Ladd and Foott(1974)]{Ladd1974763}
 Charles~C. Ladd and Roger Foott.
@@ -143,6 +191,79 @@ R.~Larsson, G.~Sällfors, P.E. Bengtsson, C.~Alén, U.~Bergdahl, and
 \newblock \emph{Skjuvhällfasthet: Utvärdering I Kohesionsjord}, 2007.
 \newblock cited By 5.
 
+\bibitem[Lefebvre et~al.(1987)Lefebvre, Pare, and Dascal]{Lefebvre198723}
+G.~Lefebvre, J.-J. Pare, and O.~Dascal.
+\newblock Undrained shear strength in the surficial weathered crust.
+\newblock \emph{Canadian Geotechnical Journal}, 24\penalty0 (1):\penalty0
+  23--34, 1987.
+\newblock \doi{10.1139/t87-003}.
+\newblock cited By 9.
+
+\bibitem[Lehtonen et~al.(2015)Lehtonen, Meehan, Länsivaara, and
+  Mansikkamäki]{Lehtonen2015961}
+V.J. Lehtonen, C.L. Meehan, T.T. Länsivaara, and J.N. Mansikkamäki.
+\newblock Full-scale embankment failure test under simulated train loading.
+\newblock \emph{Geotechnique}, 65\penalty0 (12):\penalty0 961--974, 2015.
+\newblock \doi{10.1680/jgeot.14.P.100}.
+\newblock cited By 16.
+
+\bibitem[Leroueil(1988)]{Leroueil198885}
+S.~Leroueil.
+\newblock Tenth canadian geotechnical colloquium: recent developments in
+  consolidation of natural clays.
+\newblock \emph{Canadian Geotechnical Journal}, 25\penalty0 (1):\penalty0
+  85--107, 1988.
+\newblock \doi{10.1139/t88-010}.
+\newblock cited By 104.
+
+\bibitem[Leroueil(1996)]{Leroueil1996534}
+S.~Leroueil.
+\newblock Compressibility of clays: fundamental and practical aspects.
+\newblock \emph{Journal of Geotechnical Engineering}, 122\penalty0
+  (7):\penalty0 534--543, 1996.
+\newblock \doi{10.1061/(asce)0733-9410(1996)122:7(534)}.
+\newblock cited By 70.
+
+\bibitem[Leroueil et~al.(1983)Leroueil, Samson, and Bozozuk]{Leroueil1983477}
+S.~Leroueil, L.~Samson, and M.~Bozozuk.
+\newblock Laboratory and field determination of preconsolidation pressures at
+  gloucester.
+\newblock \emph{Canadian Geotechnical Journal}, 20\penalty0 (3):\penalty0
+  477--490, 1983.
+\newblock \doi{10.1139/t83-056}.
+\newblock cited By 47.
+
+\bibitem[Leroueil et~al.(1985)Leroueil, Kabbaj, Tavenas, and
+  Bouchard]{Leroueil1985159}
+S.~Leroueil, M.~Kabbaj, F.~Tavenas, and R.~Bouchard.
+\newblock Stress-strain-strain rate relation for the compressibility of
+  sensitive natural clays.
+\newblock \emph{Geotechnique}, 35\penalty0 (2):\penalty0 159--180, 1985.
+\newblock \doi{10.1680/geot.1985.35.2.159}.
+\newblock cited By 360.
+
+\bibitem[Locat and Demers(1988)]{Locat1988799}
+J.~Locat and D.~Demers.
+\newblock Viscosity, yield stress, remolded strength, and liquidity index
+  relationships for sensitive clays.
+\newblock \emph{Canadian Geotechnical Journal}, 25\penalty0 (4):\penalty0
+  799--806, 1988.
+\newblock \doi{10.1139/t88-088}.
+\newblock cited By 189.
+
+\bibitem[Länsivaara(1999)]{Länsivaara1999}
+T.~Länsivaara.
+\newblock A study of the mechanical behavior of soft clay.
+\newblock \emph{A Study of the Mechanical Behaviour of Soft Clay}, 1999.
+\newblock cited By 14.
+
+\bibitem[Mansikkamäki(2015)]{Mansikkamäki2015}
+J.~Mansikkamäki.
+\newblock Effective stress finite element stability analysis of an old railway
+  embankment on soft clay. doctoral thesis.
+\newblock \emph{Tampere University of Technology}, 2015.
+\newblock cited By 4.
+
 \bibitem[Mesri(1975)]{Mesri1975409}
 G.~Mesri.
 \newblock New design procedure for stability of soft clays.
@@ -157,6 +278,14 @@ G.~Mesri.
   162--164, 1989.
 \newblock \doi{10.1139/t89-017}.
 \newblock cited By 98.
+
+\bibitem[Mesri and Huvaj(2007)]{Mesri20071}
+G.~Mesri and N.~Huvaj.
+\newblock Shear strength mobilized in undrained failure of soft clay and silt
+  deposits.
+\newblock \emph{Shear Strength Mobilized in Undrained Failure of Soft Clay and
+  Silt Deposits}, pages 1--22, 2007.
+\newblock cited By 16.
 
 \bibitem[Müller et~al.(2014)Müller, Larsson, and Spross]{Müller2014231}
 R.~Müller, S.~Larsson, and J.~Spross.
@@ -200,6 +329,13 @@ K.~Rankka, Y.~Andersson-Sköld, C.~Hultén, R.~Larsson, V.~Leroux, and
 \newblock \emph{Quick Clay in Sweden}, 2004.
 \newblock cited By 82.
 
+\bibitem[Ratahallintokeskus(2005)]{Ratahallintokeskus2005}
+Ratahallintokeskus.
+\newblock Radan stabiliteetin laskenta, olemassa olevat penkereet.
+\newblock \emph{Ratahallintokeskuksen Julkaisuja B15, Ratahallintokeskus,
+  Helsinki}, 2005.
+\newblock cited By 1.
+
 \bibitem[Rosenqvist(1953)]{Rosenqvist1953195}
 I.T. Rosenqvist.
 \newblock Considerations on the sensitivity of norwegian quick-clays.
@@ -220,5 +356,33 @@ A.W. Skempton.
 \newblock \emph{Proc. Soil Mechanics and Foundations Division}, 80\penalty0
   (478):\penalty0 19--22, 1954.
 \newblock cited By 45.
+
+\bibitem[Tanaka et~al.(2012)Tanaka, Hirabayashi, Matsuoka, and
+  Kaneko]{Tanaka2012590}
+H.~Tanaka, H.~Hirabayashi, T.~Matsuoka, and H.~Kaneko.
+\newblock Use of fall cone test as measurement of shear strength for soft clay
+  materials.
+\newblock \emph{Soils and Foundations}, 52\penalty0 (4):\penalty0 590--599,
+  2012.
+\newblock \doi{10.1016/j.sandf.2012.07.002}.
+\newblock cited By 23.
+
+\bibitem[Westerberg et~al.(2015)Westerberg, Müller, and
+  Larsson]{Westerberg201577}
+B.~Westerberg, R.~Müller, and S.~Larsson.
+\newblock Evaluation of undrained shear strength of swedish fine-grained
+  sulphide soils.
+\newblock \emph{Engineering Geology}, 188:\penalty0 77--87, 2015.
+\newblock \doi{10.1016/j.enggeo.2015.01.007}.
+\newblock cited By 12.
+
+\bibitem[Wroth and Wood(1978)]{Wroth1978137}
+C.P. Wroth and D.M. Wood.
+\newblock Correlation of index properties with some basic engineering
+  properties of soils.
+\newblock \emph{Canadian Geotechnical Journal}, 15\penalty0 (2):\penalty0
+  137--145, 1978.
+\newblock \doi{10.1139/t78-014}.
+\newblock cited By 303.
 
 \end{thebibliography}

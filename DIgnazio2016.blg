@@ -3,48 +3,52 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: DIgnazio2016.aux
 The style file: plainnat.bst
 Database file #1: DIgnazio2016.bib
-Warning--I didn't find a database entry for "Rosenqvist1953195，Rosenqvist1966445"
+Warning--empty booktitle in D'Ignazio20153639
+Warning--empty title in Gardemeister1973113
+Warning--empty title in Hoikkala1991
+Warning--there's a number but no volume in Jaky1944355
 Warning--empty publisher in Jamiolkowski198557
+Warning--empty booktitle in Kolisoja198961
 Warning--empty title in Larsson2007
-You've used 27 entries,
+You've used 48 entries,
             2773 wiz_defined-function locations,
-            814 strings with 9736 characters,
-and the built_in function-call counts, 12137 in all, are:
-= -- 1126
-> -- 603
-< -- 20
-+ -- 209
-- -- 180
-* -- 973
-:= -- 1908
-add.period$ -- 123
-call.type$ -- 27
-change.case$ -- 139
-chr.to.int$ -- 25
-cite$ -- 56
-duplicate$ -- 550
-empty$ -- 1018
-format.name$ -- 227
-if$ -- 2564
+            966 strings with 13554 characters,
+and the built_in function-call counts, 21781 in all, are:
+= -- 2022
+> -- 1062
+< -- 38
++ -- 368
+- -- 318
+* -- 1733
+:= -- 3392
+add.period$ -- 217
+call.type$ -- 48
+change.case$ -- 246
+chr.to.int$ -- 46
+cite$ -- 103
+duplicate$ -- 1009
+empty$ -- 1837
+format.name$ -- 392
+if$ -- 4630
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 28
-newline$ -- 185
-num.names$ -- 108
-pop$ -- 213
+missing$ -- 49
+newline$ -- 321
+num.names$ -- 192
+pop$ -- 391
 preamble$ -- 1
-purify$ -- 114
+purify$ -- 202
 quote$ -- 0
-skip$ -- 407
+skip$ -- 751
 stack$ -- 0
-substring$ -- 458
-swap$ -- 38
-text.length$ -- 1
+substring$ -- 829
+swap$ -- 91
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 292
-warning$ -- 2
-while$ -- 103
+type$ -- 523
+warning$ -- 7
+while$ -- 186
 width$ -- 0
-write$ -- 435
-(There were 3 warnings)
+write$ -- 766
+(There were 7 warnings)
